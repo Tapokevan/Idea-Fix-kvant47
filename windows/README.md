@@ -8,7 +8,7 @@ py -3 -m venv .venv
 if (-not (Test-Path .env)) { Copy-Item .env.example .env }
 ```
 
-В `.env` уже настроены MAX и GigaChat.
+Файл .env отправим отдельно.
 
 Запустите `RUN_BOT.bat` или выполните команду.
 
